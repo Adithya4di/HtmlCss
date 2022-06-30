@@ -1,0 +1,196 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.fluid-container {
+ padding: 7% 15%;
+ margin-bottom: 5%;
+}
+/* sections */
+.coloured{
+  background-color: #800000;
+  color: white;
+}
+
+
+/* title section */
+
+
+#title .fluid-container {
+  padding : 3% 9% 5%;
+  text-align:left;
+}
+em {
+  font-size: 1.2rem
+}
+.big-heading {
+  width:100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  position: relative;
+  top: 30px;
+  right: 50px;
+}
+.section-heading {
+  font-size:3rem;
+  line-height:1.5;
+}
+
+.line {
+  margin: 5px;
+}
+
+.rows {
+  margin-left: 30px;
+}
+
+.header {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+padding: 15px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+}
+
+.download-button {
+  margin: 12% 3% 5% 0;
+}
+.line{
+  font-size: 1.5rem
+}
+.tilt {
+  margin-top: 10%;
+  width: 90%;
+  position: absolute;
+}
+
+
+
+/* feature section */
+
+.feature-title{
+  font-size:1.8rem;
+  font-weight:600;
+}
+.fas-symbols {
+  color: #800000;
+  font-size: 600%
+}
+
+.fas-symbols:hover {
+  color:#620000 ;
+}
+
+.feature-para {
+  color: #8F8F8F;
+  font-weight: 500;
+}
+.item{
+  margin-bottom:2%;
+}
+
+
+/*testimonials*/
+
+#testimonials {
+  background-color: #800000;
+}
+.carousel-inner{
+  height:600px;
+}
+.testimonial-text{
+  font-size:3rem;
+  line-height: 1.5;
+  margin-bottom: 2%;
+}
+
+.dog-image {
+  border-radius: 100%;
+  width: 30;
+  margin: 2%;
+}
+
+.oscar {
+  width: 35%;
+  margin: 1%;
+  padding:1%;
+  margin-bottom: 1%;
+}
+.testimonial-image{
+  width: 25%;
+  padding:0;
+  margin-bottom: 1%;
+}
+
+
+
+/*interface section */
+#interface{
+  margin:5%;
+}
+.interface-image{
+  width: 100%;
+}
+.center{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: white;
+   text-shadow: 2px 2px black;
+}
+.day{
+  position: absolute;
+  top:60%;
+  left:3%;
+}
+.app{
+  color: black;
+  position: absolute;
+  top:6%;
+  left:25%;
+   text-shadow: 2px 2px white;
+}
+.faq{
+  margin-top:3%;
+}
+
+
+/* cta section */
+
+#cta {
+  padding: 5% 0 5% 0;
+}
+
+.cta-font {
+  font-size: 3rem;
+  line-height: 1.5rem font-weight:bold;
+  width: 50%;
+  margin: 0 auto 0 auto;
+  padding-bottom: 3%;
+}
+
+.dwn-btn {
+  margin: 1%;
+}
+
+/* footer section */
+#footer {
+  margin: 3%;
+  color: #8F8F8F;
+}
+
+.footer-symbols {
+  padding: 1%;
+  color: black;
+}

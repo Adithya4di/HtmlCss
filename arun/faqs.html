@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+     background-image: url(images/crop.jpg);
+      font-family: 'Roboto Slab', serif;
+}
+.faq{
+    font-weight:800;
+    position: relative;
+    left:20%;
+    top:20%;
+    color: white;
+}
+.accordion {
+      font-family: 'Roboto Slab', serif;
+  position: relative;
+  left:20%;
+  top:20%;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  position: relative;
+  left:20%;
+  top:20%;
+  width: 50%;
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+</style>
+
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<h1 class="faq">FREQUENTLY ASKED QUESTIONS</h1>
+
+<button class="accordion">is there a mobile app ?</button>
+<div class="panel">
+  <p>yes, we provide mobile application as well...we have our apps both on android and ios...you can check playstore for our app and find out more details there.</p>
+</div>
+
+<button class="accordion">is doctor consultancy free?</button>
+<div class="panel">
+  <p>Our app usually will not charge any  amount from the users...but you need to pay doctor consultancy fee if you want one...it's just like any other medical checkup</p>
+</div>
+
+<button class="accordion">Who can see my posts?</button>
+<div class="panel">
+  <p>You have that option in the settings...it's totally upto you..you can have only your friends watching it or you can even share your ideas with the entire community.</p>
+</div>
+
+<button class="accordion">do i get my money cback if i cancel subscription?</button>
+<div class="panel">
+  <p>Yes, there is a 100% money back policy ...if u are unhappy with our site, you can ask for a refund within the 1st month of your payment..we generally suggest other plans for our unhappy users, but we refund the amount if you want it back.</p>
+</div>
+
+<button class="accordion">How can i write a review?</button>
+<div class="panel">
+  <p>There is no review section on our app right now..for mobile applications , you can review them on playstore...but for pc users, there is no review section.</p>
+</div>
+
+<button class="accordion">is our profile safe?</button>
+<div class="panel">
+  <p>Yes, all the profiles are kept private...we even have our privacy policy for chats also...you can read the terms and conditions and accept them....</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

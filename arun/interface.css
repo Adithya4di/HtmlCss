@@ -1,0 +1,92 @@
+body{
+ background-image: url(images/crop.jpg);
+  font-family: 'Roboto Slab', serif;
+}
+.heading{
+  color:white;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left:32%;
+  top:10%;
+  letter-spacing:2px;
+  font-size:3rem
+
+}
+.blank {
+  position: relative;
+  top:200px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 30%;
+  background-color: white;
+  padding: 3%;
+  border-radius: 3%;
+  margin-top: 2%;
+  Box-shadow: 0 10px rgba(0, 0, 0, 0.2);
+  padding-left: 25px;
+  padding-bottom: 20px;
+  margin-top: 25px;
+}
+
+/*INPUT ELEMENTS INSIDE FORM*/
+.box {
+  display: block;
+  width: 100%;
+  font-size: 170%;
+  padding: 1%;
+  padding-left: 2%;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.type{
+  margin-bottom: 6%;
+}
+
+.img {
+  background-repeat : no-repeat;
+  background-position: right;
+  background-origin: content-box;
+}
+.warn{
+  margin-top: 1%;
+  color: hsl(0, 100%, 74%);
+  font-size: 13px;
+  font-weight: 600;
+  position: absolute;
+  right: 3%;
+}
+
+::placeholder {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+input:focus {
+  outline: none;
+}
+form{
+  background-image: url(images/heart.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+}
+.submit{
+  position: absolute;
+  bottom:30%;
+  left:45%;
+  font-size: 160%;
+  padding: 1%;
+  border-radius: 8px;
+  color:red;
+  font-weight:600;
+    font-family: 'Roboto Slab', serif;
+}
+
+.new{
+  position: absolute;
+  bottom:15%;
+  left:40%;
+  color:white;
+}
